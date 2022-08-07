@@ -77,7 +77,7 @@
   }
   
   .chat-title-container {
-    width: calc(100% - 36px);
+    width: 100%;
     padding: 18px;
     text-align: center;
   }
@@ -155,21 +155,20 @@
   .message-form-container {
     position: absolute;
     bottom: 0px;
-    width: calc(100% - 36px);
+    width: 100%;
     padding: 18px;
     background-color: rgb(240, 240, 240);
   }
   
   .message-form {
     overflow: hidden;
-    border-radius: 6px;
-    border: 1px solid #3b2a50;
+    border: 2px solid #3b2a50;
     background-color: white;
   }
   
   .message-input {
-    height: 40px;
-    width: calc(100% - 132px);
+    height: 30px;
+    width: calc(100% - 101px);
     background-color: white;
     border: 1px solid white;
     padding: 0px 18px;
@@ -179,28 +178,28 @@
   
   .image-button {
     cursor: pointer;
-    padding: 0px 12px;
+    padding: 16px 16px;
+    background-color: #3b2a50;
     height: 100%;
   }
   
   .send-button {
-    height: 42px;
-    background-color: white;
-    border: 1px solid white;
-    padding: 0px 18px;
+    margin-left: 5px;
+    height: 50px;
+    background-color: #3b2a50;
+    border: 1px solid rgb(14, 9, 9);
+    padding: 16px 15px;
     cursor: pointer;
   }
   
   .send-icon {
-    top: 1px;
-    position: relative;
-    transform: rotate(-90deg);
+    font-size: 14px;
+    color: aliceblue;
   }
   
   .picture-icon {
-    top: 1px;
-    position: relative;
     font-size: 14px;
+    color: aliceblue;
   }
   
   /* FORM STYLES */
